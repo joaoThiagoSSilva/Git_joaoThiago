@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\projetos"
+		},
+		{
+			"path": "..\\..\\projetobkdev-main\\projetobkdev-main\\src"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "projetos"
+	}
+}

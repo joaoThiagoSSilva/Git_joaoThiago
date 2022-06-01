@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form>
+    
+    <label for="nm">Nome</label>
+    <input type="text" id="nm" name="nome" placeholder="Digite seu nome" required="true">
+
+
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="nome" placeholder="Digite seu e-mail" required="true">
+    
+    
+    <label for="sobrevc">Descrição</label>
+    <textarea 
+        placeholder="Fale mais sobre você aqui"
+        required
+        id="sobrevc"
+        cols="45"
+        rows="1"
+        name="sobrevc"
+      ></textarea>
+    
+    <label for="escolha">Módulo</label>
+    <select for="modulo" id="escolha" required="true">
+        <option value="" id="">Escolher módulo</option>
+        <option value="">Pikachu</option>
+        <option value="">Charizard</option>
+        <option value="">Squartle</option>
+
+    </select>
+
+    <label for="senha">Digite sua senha</label>
+    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+    
+    <label for="csenha">Confirme sua senha</label>
+    <input type="password" id="csenha" name="senha" placeholder="Confirme sua senha" required>
+    
+    
+    <p>Deseja receber novidades em seu e-mail?</p>
+
+    <label for="S">Sim</label>
+    <input type="radio" id="S" required name="novidades-email" value="sim">
+    
+    <label for="N">Não</label>
+    <input type="radio" id="N" required name="novidades-email" value="nao">
+    <button type="submit">Cadastrar</button>
+    
+</form>
+</body>
+</html>
