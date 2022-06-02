@@ -3,47 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="./img/logokenzie.webp" alt="logo kenzie">
-            <a href="https://kenzie.com.br/quem-somos">Quem somos</a>
-            <a href="https://kenzie.com.br/curriculo">Formação</a>
-            <a href="https://kenzie.com.br/pagamento">Pagamento</a>
-            <a href="https://kenzie.com.br/parceiras-v2">Para empresas</a>
-            <a href="https://kenzie.com.br/faq">FAQ</a>
-            <a href="https://kenzie.com.br/blog/">Blog</a>
-            <a href="https://kenzie.gupy.io/">Trabalhe conosco</a>
-            <a href="https://inscricao.kenzie.com.br/">Quero ser programador</a>
-        </nav>
-    </header>
-    <main>
-       <article> 
-        <section class="aprenda-progamacao">
-            
-               
+    
+<form>
+    
+    <label for="nm">Nome</label>
+    <input type="text" id="nm" name="nome" placeholder="Digite seu nome" required="true">
 
-            <h1>APRENDA DO ZERO COM NOSSO CURSO DE PROGRAMAÇÃO</h1>
-            <h3>Mesmo sem conhecimento prévio e mesmo sem dinheiro para investir.</h3>
-            <div>
-                <a href="https://inscricao.kenzie.com.br/">Quero ser programador</a>
-            </div>
-        </section>
-        <section class="oQueEsperar">
-            <h2>O QUE ESPERAR DA KENZIE</h2>
-            <h2>98% </h2>    
-            <p>Dos nossos alunos trabalham como programadores três meses depois de formados.</p>
-            <h2>+2 MIL</h2>
-            <p>Alunos que acreditam em nossa metodologia inovadora.</p>
-            <h2>+160 MIL</h2>
-            <p>Seguidores em todas as redes sociais.</p>
-            <h2>+100</h2>
-            <p>Empresas por todo o Brasil que contratam alunos da Kenzie.</p>
-        </section>
-       </article>
-    </main>
+
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="nome" placeholder="Digite seu e-mail" required="true">
+    
+    
+    <label for="sobrevc">Descrição</label>
+    <textarea 
+        placeholder="Fale mais sobre você aqui"
+        required
+        id="sobrevc"
+        cols="45"
+        rows="1"
+        name="sobrevc"
+      ></textarea>
+    
+    <label for="escolha">Módulo</label>
+    <select for="modulo" id="escolha" required="true">
+        <option value="" id="">Escolher módulo</option>
+        <option value="">Pikachu</option>
+        <option value="">Charizard</option>
+        <option value="">Squartle</option>
+
+    </select>
+
+    <label for="senha">Digite sua senha</label>
+    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+    
+    <label for="csenha">Confirme sua senha</label>
+    <input type="password" id="csenha" name="senha" placeholder="Confirme sua senha" required>
+    
+    
+    <p>Deseja receber novidades em seu e-mail?</p>
+
+    <label for="S">Sim</label>
+    <input type="radio" id="S" required name="novidades-email" value="sim">
+    
+    <label for="N">Não</label>
+    <input type="radio" id="N" required name="novidades-email" value="nao">
+    <button type="submit">Cadastrar</button>
+    
+</form>
 </body>
 </html>
